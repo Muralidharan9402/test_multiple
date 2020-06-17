@@ -1,0 +1,20 @@
+2020-05-29 13:21:57 [main] INFO  c.i.DemoSpringBootLoggingApplication - Starting DemoSpringBootLoggingApplication on DESKTOP-05TN5TN with PID 14076 (D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging\target\classes started by Muralidharan Jothi in D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging)
+2020-05-29 13:21:57 [main] INFO  c.i.DemoSpringBootLoggingApplication - No active profile set, falling back to default profiles: default
+2020-05-29 13:21:57 [main] INFO  c.i.DemoSpringBootLoggingApplication - Started DemoSpringBootLoggingApplication in 1.159 seconds (JVM running for 2.438)
+2020-05-29 13:21:57 [main] ERROR c.i.service.CustomerLoginServiceImpl - Service.WRONG_CREDENTIALS
+java.lang.Exception: Service.WRONG_CREDENTIALS
+	at com.infy.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:26)
+	at com.infy.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:16)
+	at com.infy.DemoSpringBootLoggingApplication.run(DemoSpringBootLoggingApplication.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.infy.DemoSpringBootLoggingApplication.main(DemoSpringBootLoggingApplication.java:21)
+2020-05-29 13:22:55 [main] INFO  c.i.DemoSpringBootLoggingApplication - Starting DemoSpringBootLoggingApplication on DESKTOP-05TN5TN with PID 29364 (D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging\target\classes started by Muralidharan Jothi in D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging)
+2020-05-29 13:22:55 [main] INFO  c.i.DemoSpringBootLoggingApplication - No active profile set, falling back to default profiles: default
+2020-05-29 13:22:56 [main] INFO  c.i.DemoSpringBootLoggingApplication - Started DemoSpringBootLoggingApplication in 1.071 seconds (JVM running for 2.224)
+2020-05-29 13:28:02 [main] INFO  c.i.DemoSpringBootLoggingApplication - Starting DemoSpringBootLoggingApplication on DESKTOP-05TN5TN with PID 29300 (D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging\target\classes started by Muralidharan Jothi in D:\Projects\Demo_SpringBoot_Logging\Demo_SpringBoot_Logging)
+2020-05-29 13:28:02 [main] INFO  c.i.DemoSpringBootLoggingApplication - No active profile set, falling back to default profiles: default
+2020-05-29 13:28:02 [main] INFO  c.i.DemoSpringBootLoggingApplication - Started DemoSpringBootLoggingApplication in 0.903 seconds (JVM running for 2.217)
